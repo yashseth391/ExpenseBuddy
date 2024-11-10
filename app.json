@@ -3,6 +3,7 @@
     "name": "ExpenseBuddy",
     "slug": "ExpenseBuddy",
     "version": "1.0.0",
+    "scheme": "budget-planner-scheme",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,8 +24,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-asset"
-    ]
+    "plugins": ["expo-asset", "expo-router"]
   }
 }
